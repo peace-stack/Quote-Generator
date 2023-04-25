@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body {
+  background-color: #a2a1a1;
+  font-family: Arial, sans-serif; 
+}
+#quote-body {
+  margin: auto;
+  margin-top: 15%;
+  width: 80%; 
+  max-width: 600px; 
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+#display-quote {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#quote-btn {
+  display: block;
+  margin: auto;
+  background-color: palevioletred;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+#quote-btn:hover {
+  background-color: purple; 
+}
